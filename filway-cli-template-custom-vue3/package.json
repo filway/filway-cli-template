@@ -1,0 +1,15 @@
+{
+  "name": "filway-cli-template-custom-vue3",
+  "version": "1.0.2",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "fs-extra": "^9.0.1",
+    "glob": "^7.1.6",
+    "inquirer": "^7.3.3"
+  }
+}

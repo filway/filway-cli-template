@@ -1,0 +1,84 @@
+{
+  "name": "<%= className %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "filway",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "npm run clean && npm run build:esm && npm run build:umd",
+    "test": "vue-cli-service test:unit",
+    "test:watch": "vue-cli-service test:unit --watch",
+    "lint": "vue-cli-service lint --max-warnings 5",
+    "build:esm": "rollup --config build/rollup.esm.config.js",
+    "build:umd": "rollup --config build/rollup.umd.config.js",
+    "build:demo": "npm install && npm run build && cd examples && npm install && npm run build",
+    "clean": "rimraf ./dist",
+    "prepublishOnly": "npm run lint && npm run test && npm run build"
+  },
+  "main": "dist/<%= className %>.umd.js",
+  "module": "dist/<%= className %>.esm.js",
+  "files": [
+    "build",
+    "examples",
+    "src",
+    "test2",
+    "dist",
+    ".browserslistrc",
+    ".eslintrc.js",
+    ".gitignore",
+    ".travis.yml",
+    "babel.config.js",
+    "jest.config.js",
+    "README.md",
+    "tsconfig.json"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run test"
+    }
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "@types/jest": "^24.0.19",
+    "@types/lodash-es": "^4.17.4",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-unit-jest": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "@vue/test-utils": "^2.0.0-0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "husky": "^4.3.8",
+    "rimraf": "^2.7.1",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-vue": "^6.0.0-beta.10",
+    "tslib": "^1.14.1",
+    "typescript": "~3.9.3",
+    "vue": "^3.0.0",
+    "vue-jest": "^5.0.0-0"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "keywords": [
+    "Component",
+    "UI",
+    "Vue3"
+  ],
+  "license": "MIT",
+  "types": "dist/index.d.ts"
+}

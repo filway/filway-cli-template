@@ -1,0 +1,11 @@
+{
+  "name": "filway-cli-components",
+  "version": "1.0.8",
+  "description": "vue3 components",
+  "keywords": [],
+  "author": "filway <filway@126.com>",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}
