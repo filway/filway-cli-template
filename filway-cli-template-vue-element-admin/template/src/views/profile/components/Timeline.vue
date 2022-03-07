@@ -18,12 +18,12 @@ export default {
       timeline: [
         {
           timestamp: '2019/4/20',
-          title: 'Update Github template',
+          title: 'Update Github template1',
           content: 'PanJiaChen committed 2019/4/20 20:46'
         },
         {
           timestamp: '2019/4/21',
-          title: 'Update Github template',
+          title: 'Update Github template1',
           content: 'PanJiaChen committed 2019/4/21 20:46'
         },
         {

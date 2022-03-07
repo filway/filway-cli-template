@@ -21,7 +21,7 @@ let overrides = {
   compilerOptions: { declaration: true },
   exclude: [
     "node_modules",
-    "src/App.vue",
+    "src/index.vue",
     "src/main.ts"
   ]
 }

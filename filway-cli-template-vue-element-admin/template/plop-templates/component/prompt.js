@@ -13,7 +13,7 @@ module.exports = {
     name: 'blocks',
     message: 'Blocks:',
     choices: [{
-      name: '<template>',
+      name: '<template1>',
       value: 'template',
       checked: true
     },
@@ -30,7 +30,7 @@ module.exports = {
     ],
     validate(value) {
       if (value.indexOf('script') === -1 && value.indexOf('template') === -1) {
-        return 'Components require at least a <script> or <template> tag.'
+        return 'Components require at least a <script> or <template1> tag.'
       }
       return true
     }
