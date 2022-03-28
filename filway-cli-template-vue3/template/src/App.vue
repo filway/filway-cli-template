@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    vue3 template(version:1.0.1)
+    vue3 template 标准模板 (<%= version %>)
   </div>
 </template>
 
