@@ -1,0 +1,69 @@
+html {
+    font-size: 26.666667vw;
+}
+body {
+    font-size: 14px;
+}
+.page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.page-title-box {
+    margin: 0.8rem 0 0.125rem 0;
+    width: 3.405rem;
+    height: 0.84rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-title {
+    font-size: 0.25rem;
+    font-weight: 400;
+}
+.page-sn {
+    margin-bottom: 0.395rem;
+}
+.page-gift-img {
+    width: 3.2rem;
+    height: 1.8rem;
+    margin-bottom: 0.665rem;
+}
+.page-gift-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.25rem;
+}
+.page-use-btn {
+    width: 3.2rem;
+    height: 0.495rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0.2475rem;
+    margin-bottom: 0.4rem;
+    border: none;
+    font-size: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-expiry {
+    margin-bottom: 0.075rem;
+}
+.page-line {
+    height: 0.005rem;
+    width: 2.7rem;
+    background-color: #cfcfcf;
+    margin-bottom: 0.215rem;
+}
+.page-tc {
+    width: 0.855rem;
+    height: 0.205rem;
+    border: 0.01rem solid #cfcfcf;
+    color: #7e7e7e;
+    font-size: 0.15rem;
+    border-radius: 0.1025rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
