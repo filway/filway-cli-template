@@ -16,9 +16,7 @@
           linkNodes: []
         }
       },
-      render(createElement) {
-        return createElement('div')
-      },
+      render(createElement) {},
       created() {
         this.head = document.head || document.getElementsByTagName('head')[0]
         this.hrefs.forEach(href => {
@@ -47,9 +45,7 @@
           required: true
         }
       },
-      render(createElement) {
-        return createElement('div')
-      },
+      render(createElement) {},
       created() {
         this.head = document.head || document.getElementsByTagName('head')[0]
         this.index = 0
