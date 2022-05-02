@@ -1,0 +1,12 @@
+{
+  "name": "filway-cli-template-evajs-start",
+  "version": "1.0.1",
+  "description": "EvaJs Start Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
