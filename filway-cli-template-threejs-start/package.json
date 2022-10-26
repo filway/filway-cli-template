@@ -1,0 +1,13 @@
+{
+  "name": "filway-cli-template-threejs-start",
+  "version": "1.0.0",
+  "description": "Threejs Start Demo",
+  "keywords": [
+    "threejs",
+    "vite",
+    "typescript",
+    "filway"
+  ],
+  "author": "filway <filway@126.com>",
+  "license": "ISC"
+}
